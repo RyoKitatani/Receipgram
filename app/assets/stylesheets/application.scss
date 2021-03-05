@@ -14,4 +14,8 @@
  *= require_self
  */
 
-@import "bluma";
+@import "bulma";
+
+.notification:not(:last-child){
+    margin-bottom: 0;
+}
